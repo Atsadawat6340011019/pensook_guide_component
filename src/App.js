@@ -1,24 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Boat1 from "./component/learnRedux/Boat1";
+import Boat2 from "./component/learnRedux/Boat2";
+
+import { PostStatus } from "./component/PostStatus";
+
+import Guide_Search from "./component/DialogGuide_FirsttimeLogin/Guide_Search";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Guide_Search />
+    </>
   );
 }
 
